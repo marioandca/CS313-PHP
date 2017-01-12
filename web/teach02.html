@@ -7,7 +7,6 @@
      </script>
      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
      <script>
-      // $("#s1").css("background-color","purple");
       $(document).ready(function(){
         $("#bgcsubmit").click(function(){
           $("#s1").css("background-color", $("#bgcolor").val());
@@ -26,26 +25,23 @@
      </div>
      <div id="section">
        <div id="s1">
-	 Div 1
+	 This is div #1
        </div>
        Background Color: <input type="text" id="bgcolor" value="Yellow">
        <br />
-       <input type="button" value="Change Color" id="bgcsubmit" />
+       <button id="bgcsubmit">Change Color</button>
        <br />
        <br />
        <div id="s2">
-	 Div 2
+	 This is div #2
        </div>
        <br />
        <div id="s3">
-	 Div 3
+	 This is div #3
        </div>
-       <form id="vis" action="javascript:void(0);">
-       <input type="button" value="Toggle Visibility" id="visibility" />
-       </form>
+       <button id="visibility" />Toggle Visibility</button>
        <br />
-       <button type="button" onclick="alertClick()">Click Me!
-       </button>
+       <button onclick="alertClick();">Click Me!</button>
      </div>
      <div id="footer">
        Created by Matthew R.
