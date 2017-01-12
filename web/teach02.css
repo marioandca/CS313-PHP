@@ -25,15 +25,19 @@ h1.title {
 }
 
 #s1 {
-    font-size: 200%;
+    font-size: 50%;
+    background-color: yellow;
 }
 
 #s2 {
-    font-size: 110%;
+    font-size: 210%;
+    background-color: red;
 }
 
 #s3 {
-    font-size: 70%;
+    font-size: 105%;
+    background-color: black;
+    color:white;
 }
 
 #s1:hover, #s2:hover, #s3:hover {
