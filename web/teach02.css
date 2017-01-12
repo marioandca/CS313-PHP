@@ -24,6 +24,18 @@ h1.title {
     padding:5px;
 }
 
+#s1 {
+    font-size: 200%;
+}
+
+#s2 {
+    font-size: 110%;
+}
+
+#s3 {
+    font-size: 70%;
+}
+
 #s1:hover, #s2:hover, #s3:hover {
     font-weight: bold;
 }
