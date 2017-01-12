@@ -25,7 +25,7 @@ h1.title {
 }
 
 #s1 {
-    font-size: 50%;
+    font-size: 90%;
     background-color: yellow;
 }
 
@@ -41,5 +41,5 @@ h1.title {
 }
 
 #s1:hover, #s2:hover, #s3:hover {
-    font-weight: bold;
+    font-weight: 900;
 }
