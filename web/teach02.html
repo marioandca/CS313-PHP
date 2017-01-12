@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html>
-   <head>
-     <link rel="stylesheet" type="text/css" href="teach02.css">
-     <title>Teach 02</title>
-     <script type="text/javascript" src="teach02.js">
-     </script>
-     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
-     <script>
-      $(document).ready(function(){
-        $("#bgcsubmit").click(function(){
-          $("#s1").css("background-color", $("#bgcolor").val());
+    <head>
+      <title>Teach 02</title>
+      <link rel="stylesheet" type="text/css" href="teach02.css">
+      <script type="text/javascript" src="teach02.js"></script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("#bgcsubmit").click(function(){
+            $("#s1").css("background-color", $("#bgcolor").val());
+          });
+          $("#visibility").click(function(){
+            $("#s3").toggle(1000);
+          });
         });
-        $("#visibility").click(function(){
-          $("#s3").toggle(1000);
-        });
-      });
-     </script> 
-   </head>
-   <body>
-     <div id="header">
-       <h1 class="title" align="center">
-         Teach 02 - Click Me!
-       </h1>
-     </div>
-     <div id="section">
-       <div id="s1">
-	 This is div #1
-       </div>
-       Background Color: <input type="text" id="bgcolor" value="Yellow">
-       <br />
-       <button id="bgcsubmit">Change Color</button>
-       
-       
-       <div id="s2">
-	 This is div #2
-       </div>
-       <br />
-       <div id="s3">
-	 This is div #3
-       </div>
-       <button id="visibility" />Toggle Visibility</button>
-       <br />
-       <br />
-       <button onclick="alertClick();">Click Me!</button>
-     </div>
-     <div id="footer">
-       Created by Matthew R.
-     </div>
-   </body>
+      </script> 
+    </head>
+    <body>
+      <div id="header">
+        <h1 class="title" align="center">
+          Teach 02 - Click Me!
+        </h1>
+      </div>
+      <div id="section">
+        <div id="s1">
+	       This is div #1
+        </div>
+        Background Color: <input type="text" id="bgcolor" value="Yellow">
+        <br />
+        <button id="bgcsubmit">Change Color</button>
+        <br />
+        <br />
+        <div id="s2">
+	       This is div #2
+        </div>
+        <br />
+        <div id="s3">
+	       This is div #3
+        </div>
+        <button id="visibility" />Toggle Visibility</button>
+        <br />
+        <br />
+        <button onclick="alertClick();">Click Me!</button>
+      </div>
+      <div id="footer">
+        Created by Matthew R.
+      </div>
+    </body>
 </html>
