@@ -25,8 +25,5 @@ h1.title {
 }
 
 #s1:hover, #s2:hover, #s3:hover {
-    background-color: red;
-    color: white;
-    padding: 10px 5px;
-    display: inline-block;
+    font-weight: bold;
 }
