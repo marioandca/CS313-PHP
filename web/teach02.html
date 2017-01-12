@@ -10,6 +10,11 @@
         $("#bgcsubmit").click(function(){
           $("#s1").css("background-color", $("#bgcolor").val());
         });
+        $("#visibility").click(function(){
+          $("div").animate({
+            visibility: 'toggle'
+            });
+        });
       });
      </script> 
    </head>
@@ -27,6 +32,7 @@
        <br />
        <input type="button" value="Change Color" id="bgcsubmit" />
        <br />
+       <br />
        <div id="s2">
 	 Div 2
        </div>
@@ -35,7 +41,7 @@
 	 Div 3
        </div>
        <form id="vis" action="javascript:void(0);">
-       <input type="button" value="Change Color" id="bgcsubmit" />
+       <input type="button" value="Toggle Visibility" id="visibility" />
        </form>
        <br />
        <button type="button" onclick="">Click Me!
