@@ -3,50 +3,19 @@ h1.title {
     font-size: 75px;
 }
 
-a.home:link, a.home:visited, a.home:hover, a.home:active {
-    text-decoration: none;
-    font-size: 100%;
-    color: black;
-}
-
-img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.wrapper {
-    width: 975px;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    display: inline;
-}
-
 #header {
     background-color:black;
     color:white;
     text-align:center;
     padding:1px;
 }
-#nav {
-//    line-height:10px;
-    background-color:black;//#eeeeee;
-    height:70px;
-    width:auto;//1264px;
-    padding:5px;
-//    letter-spacing: 3px;
-    font-size: 50px;
-}
+
 #section {
     width: auto;
     float:left;
     padding:10px;
 }
+
 #footer {
     background-color:black;
     color:white;
@@ -55,26 +24,9 @@ img.centered {
     padding:5px;
 }
 
-a.selected:link, a.selected:visited, a.selected:hover, a.selected:active {
+div:hover {
     background-color: red;
     color: white;
     padding: 10px 5px;
     display: inline-block;
-}
-a.menu:link, a.menu:visited {
-    text-decoration: none;
-//    font-size: 40px;
-    color: red;
-//    background-color: white;
-    padding: 10px 5px;
-    display: inline-block;
-}
-a.menu:hover {
-    background-color: hsl(360, 50%, 50%);
-    color: white;
-}
-a.menu:active {
-    background-color: red;
-    text-decoration: underline;
-    color: white;
 }
