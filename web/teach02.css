@@ -24,7 +24,7 @@ h1.title {
     padding:5px;
 }
 
-div.s1:hover, div.s2:hover, div.s3:hover {
+#s1:hover, #s2:hover, #s3:hover {
     background-color: red;
     color: white;
     padding: 10px 5px;
